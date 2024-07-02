@@ -1,0 +1,16 @@
+environment:
+  status: "dev"
+
+postgres:
+  user: "hex0xdead"
+  password: "qwerty12345"
+  host: "localhost"
+  port: "5432"
+  name: "tasktracker"
+
+logger:
+  maxfilesize: 128  # in MB
+  maxbackups: 8
+  maxage: 28        # in days
+  compress: true
+  localtime: false
